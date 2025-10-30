@@ -47,20 +47,20 @@ body {
   height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.text-box .heading-primary {
+.header__text-box .heading-primary {
   color: white;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
 }
-.text-box .heading-primary .heading-primary--main {
+.header__text-box .heading-primary .heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -69,7 +69,7 @@ body {
   animation-duration: 1s;
   animation-timing-function: ease-out;
 }
-.text-box .heading-primary .heading-primary--sub {
+.header__text-box .heading-primary .heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 400;
