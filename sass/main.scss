@@ -1,3 +1,8 @@
+@import "base/_base";
+@import "base/_typography";
+@import "base/_utilities";
+@import "base/animation";
+
 *,
 *::before,
 *::after {
@@ -134,7 +139,7 @@ body {
 
   &:hover {
     transform: translateY(-0.3rem);
-    box-shadow: 0 1rem 2rem rgba($colorBlack 0.2);
+    box-shadow: 0 1rem 2rem rgba($colorBlack, 0.2);
 
     &::after {
       transform: scaleX(1.4) scaleY(1.6);
@@ -144,7 +149,7 @@ body {
 
   &:active {
     transform: translateY(-0.1rem);
-    box-shadow: 0 0.5rem 1rem rgba($colorBlack 0.2);
+    box-shadow: 0 0.5rem 1rem rgba($colorBlack, 0.2);
   }
 
   &--white {
